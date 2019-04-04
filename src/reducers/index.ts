@@ -1,17 +1,11 @@
 import { combineReducers } from 'redux';
-import { MemberEntity, MemberErrors } from '../model';
-import { membersReducer } from './members';
-import { memberReducer } from './member';
-import { memberErrorsReducer } from './memberErrors';
+import { ModelEntity } from '../model';
+import { destinationsReducer } from './destinations';
 
 export interface State {
-  members: MemberEntity[];
-  member: MemberEntity;
-  memberErrors: MemberErrors;
+  destinations: ModelEntity[];
 };
 
 export const state = combineReducers<State>({
-  members: membersReducer,
-  member: memberReducer,
-  memberErrors: memberErrorsReducer,
+  destinations: destinationsReducer
 });

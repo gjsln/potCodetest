@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export const MemberHeader: React.StatelessComponent<{}> = () => {
+export const DestinationsName: React.StatelessComponent<{}> = () => {
   return (
     <tr>
       <th>Avatar</th>
