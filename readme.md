@@ -15,11 +15,6 @@ in a terminal/console window. Older versions may produce errors.
  ```bash
  $ npm install
  ```
-- We also need to install [redux-saga](https://redux-saga.js.org/)
-
-```bash
-$ npm install redux-saga --save
-```
 
 ## Execute the example:
 
